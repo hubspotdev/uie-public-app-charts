@@ -192,7 +192,7 @@ const displayContactName = (res, contact) => {
     return;
   }
   const { firstname, lastname } = contact.properties;
-  res.write(`<p>Contact name: ${firstname.value} ${lastname.value}</p>`);
+  res.write(`<p>Contact name: ${firstname} ${lastname}</p>`);
 };
 
 app.get('/', async (req, res) => {

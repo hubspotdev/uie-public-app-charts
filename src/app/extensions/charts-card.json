@@ -1,11 +1,11 @@
 {
   "type": "crm-card",
   "data": {
-    "title": "Hello Public App",
-    "uid": "hello-world-card",
+    "title": "UIE Public App with Charts",
+    "uid": "uie-public-app-charts-card",
     "location": "crm.record.tab",
     "module": {
-      "file": "ExampleCard.jsx"
+      "file": "ChartsCard.jsx"
     },
     "objectTypes": [
       {

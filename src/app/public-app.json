@@ -1,7 +1,7 @@
 {
-  "name": "Get started with public apps",
-  "uid": "get-started-public-app",
-  "description": "An example to demonstrate how to build a public app with developer projects.",
+  "name": "UIE Public App Card with Charts",
+  "uid": "uie-public-app-charts",
+  "description": "An example to demonstrate how to build a public app with developer projects, use the Charts component, and call data through hubspot.fetch.",
   "allowedUrls": ["https://api.hubapi.com", "https://softwium.com/api"],
   "auth": {
     "redirectUrls": ["http://localhost:3000/oauth-callback"],
@@ -19,7 +19,7 @@
     "crm": {
       "cards": [
         {
-          "file": "./extensions/example-card.json"
+          "file": "./extensions/charts-card.json"
         }
       ]
     }
