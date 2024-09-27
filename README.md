@@ -74,7 +74,7 @@ Since this is a public app, always make sure to upload the project into your app
 
 ### View the App Card
 This card is configured to be viewed on Contact records. To view the card for development, navigate to any contact record and select `Customize record`. Select the view you'd like to update from the table and choose `Add cards`.
-
+![Add App Card Screenshot](https://github.com/user-attachments/assets/deb4a103-f399-472b-88bb-86939a886760)
 
 ## Learn more about App Cards Powered by UI Extensions
 To learn more about building public app cards, visit the HubSpot app cards landing page and check out the HubSpot public app cards developer documentation. 
