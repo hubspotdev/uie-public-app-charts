@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Divider, Text, List} from "@hubspot/ui-extensions";
+import { Divider, Text} from "@hubspot/ui-extensions";
 import { LineChart, BarChart } from "@hubspot/ui-extensions/experimental";
 import { hubspot } from "@hubspot/ui-extensions";
 
@@ -20,21 +20,6 @@ const Extension = () => {
      sales: 60,
     },
   ];  
-
-  const inventorySample = [
-    {
-      Type: 'A',
-      Amount: 187,
-    },
-    {
-      Type: 'B',
-      Amount: 65,
-    },
-    {
-      Type: 'C',
-      Amount: 120,
-    }
-  ];
 
   const [bookData, setBookData] = useState(null);
 
@@ -68,7 +53,7 @@ const Extension = () => {
       <Text format={{ fontWeight: 'bold'}}>
         Books Chart
       </Text>
-     {/* <Text format={{ fontWeight: 'bold'}}>
+     <Text format={{ fontWeight: 'bold'}}>
         Simple Line Chart
      </Text>
       <LineChart
@@ -90,10 +75,10 @@ const Extension = () => {
         showLegend: true,
         showTooltips: true
       }}
-     /> */}
+     />
      <Divider />
      <Text format={{ fontWeight: 'bold'}}>
-      Simple Bar Chart
+      Simple Bar Chart with Fetched Data
      </Text>
      <BarChart
       data={bookData}

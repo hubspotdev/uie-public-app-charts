@@ -1,5 +1,5 @@
 # Public App Card with Charts Component Sample
-Build seamless customized experiences for all customers with [app cards powered by UI Extensions](https://developers.hubspot.com/build-app-cards). Discover how to fetch data from a third-party system to create customized charts.
+Build seamless customized experiences for all customers with [app cards powered by UI Extensions](https://hubs.la/Q02Rzqx10). Discover how to fetch data from a third-party system to create customized charts.
 
 ## Overview
 You can now build UI extensions for public apps. Utilize HubSpot's library of UI components to create app cards that blend seamlessly with HubSpot. By leveraging [React](https://react.dev/), get started coding in a modern, flexible framework. 
@@ -13,11 +13,11 @@ This app card includes:
 Want a video tutorial? Check out our video on the HubSpot Developers YouTube channel!
 
 ## Installing the App Cards
-This directory contains a [single public app](https://developers.hubspot.com/docs/api/creating-an-app) with a single app card written in React. 
+This directory contains a [single public app](https://hubs.la/Q02Rzt0g0) with a single app card written in React. 
 
 ### Requirements
 A few things must be set up before using this public app sample.
-- You must have a HubSpot developer account ([sign up](https://developers.hubspot.com/get-started)).
+- You must have a HubSpot developer account ([sign up](https://hubs.la/Q02Rzsjc0)).
 - You must have the [HubSpot CLI](https://github.com/HubSpot/hubspot-cli/blob/main/packages/cli/README.md) installed and set up. 
 - You must install [Node.js](https://nodejs.org/en/download/package-manager) and [yarn](https://yarnpkg.com/getting-started). 
 - You should create a developer test account inside of your HubSpot developer account.
@@ -77,4 +77,4 @@ This card is configured to be viewed on Contact records. To view the card for de
 ![Add App Card Screenshot](https://github.com/user-attachments/assets/deb4a103-f399-472b-88bb-86939a886760)
 
 ## Learn more about App Cards Powered by UI Extensions
-To learn more about building public app cards, visit the HubSpot app cards landing page and check out the HubSpot public app cards developer documentation. 
+To learn more about building public app cards, visit the [HubSpot app cards landing page](https://hubs.la/Q02Rzqx10) and check out the [HubSpot public app cards developer documentation](https://hubs.la/Q02Rzv5y0). 
