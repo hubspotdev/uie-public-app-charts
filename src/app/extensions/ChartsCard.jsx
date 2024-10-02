@@ -50,9 +50,6 @@ const Extension = () => {
   console.log('New Book array: ', bookData);
   return (
     <>
-      <Text format={{ fontWeight: 'bold'}}>
-        Books Chart
-      </Text>
      <Text format={{ fontWeight: 'bold'}}>
         Simple Line Chart
      </Text>

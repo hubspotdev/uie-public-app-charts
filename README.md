@@ -2,11 +2,11 @@
 Build seamless customized experiences for all customers with [app cards powered by UI Extensions](https://hubs.la/Q02Rzqx10). Discover how to fetch data from a third-party system to create customized charts.
 
 ## Overview
-You can now build UI extensions for public apps. Utilize HubSpot's library of UI components to create app cards that blend seamlessly with HubSpot. By leveraging [React](https://react.dev/), get started coding in a modern, flexible framework. 
+You can now build UI extensions for public apps. Utilize HubSpot's [library of UI components](https://hubs.la/Q02RR5bV0) to create app cards that blend seamlessly with HubSpot. By leveraging [React](https://react.dev/), get started coding in a modern, flexible framework. 
 
 Within this repo, you'll find an `index.js` file with a [sample OAuth flow](https://github.com/HubSpot/oauth-quickstart-nodejs) to connect this public app to an account of your choosing. We recommend creating a [developer test account](https://developers.hubspot.com/docs/api/account-types#developer-test-accounts) inside of your app developer account for testing purposes. 
 
-This app card includes:
+This app card features:
 - `hubspot.fetch` - an API that allows you to fetch data from third-party systems*.
 - Charts UI component - build custom line and bar charts that look native to HubSpot. 
 
