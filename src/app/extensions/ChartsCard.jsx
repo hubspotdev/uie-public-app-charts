@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Divider, Text} from "@hubspot/ui-extensions";
-import { LineChart, BarChart } from "@hubspot/ui-extensions/experimental";
-import { hubspot } from "@hubspot/ui-extensions";
+import { Divider, Text, LineChart, BarChart, hubspot } from "@hubspot/ui-extensions";
 
 hubspot.extend(({ context }) => <Extension context={context} />);
 
