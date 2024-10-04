@@ -17,7 +17,7 @@ const Extension = () => {
      date: '2024-08-03',
      sales: 60,
     },
-  ];  
+  ];
 
   const [bookData, setBookData] = useState(null);
 
@@ -45,13 +45,10 @@ const Extension = () => {
     fetchData().catch((err) => console.error('Something went wrong', err));
   }, []);
 
-  console.log('New Book array: ', bookData);
   return (
     <>
-     <Text format={{ fontWeight: 'bold'}}>
-        Simple Line Chart
-     </Text>
-      <LineChart
+     <Text>Simple Line Chart</Text>
+     <LineChart
       data={salesOverTimeSample}
       axes={{
         x: {
@@ -70,33 +67,31 @@ const Extension = () => {
         showLegend: true,
         showTooltips: true
       }}
-     />
-     <Divider />
-     <Text format={{ fontWeight: 'bold'}}>
-      Simple Bar Chart with Fetched Data
-     </Text>
-     <BarChart
-      data={bookData}
-      axes={{
-        x: {
-          field: 'Title',
-          fieldType: 'category',
-          label: 'Book Title'
-        },
-        y: {
-          field: 'Length',
-          fieldType: 'linear',
-          label: 'Page Count'
-        },
-        options: {
-          groupFieldByColor: 'Title'
-        }
-      }}
-      options={{
-        showLegend: true,
-        showTooltips: true
-      }}
-     />
+      />
+      <Divider />
+      <Text>Simple Bar Chart with Fetched Data</Text>
+      <BarChart
+        data={bookData}
+        axes={{
+          x: {
+            field: 'Title',
+            fieldType: 'category',
+            label: 'Book Title'
+          },
+          y: {
+            field: 'Length',
+            fieldType: 'linear',
+            label: 'Page Count'
+          },
+          options: {
+            groupFieldByColor: 'Title'
+          }
+        }}
+        options={{
+          showLegend: true,
+          showTooltips: true
+        }}
+        />
     </>
   );
 };
