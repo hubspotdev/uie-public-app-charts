@@ -8,7 +8,7 @@ Within this repo, you'll find an `index.js` file with a [sample OAuth flow](http
 
 This app card features:
 - `hubspot.fetch` - an API that allows you to fetch data from third-party systems*.
-- Charts UI component - build custom line and bar charts that look native to HubSpot. 
+- [Charts UI component](https://hubs.la/Q02SlJWR0) - build custom line and bar charts that look native to HubSpot. 
 
 Want a video tutorial? Check out our video on the HubSpot Developers YouTube channel!
 
