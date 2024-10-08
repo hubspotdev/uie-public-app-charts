@@ -10,7 +10,7 @@ This app card features:
 - `hubspot.fetch` - an API that allows you to fetch data from third-party systems*.
 - [Charts UI component](https://hubs.la/Q02SlJWR0) - build custom line and bar charts that look native to HubSpot. 
 
-Want a video tutorial? Check out our video on the HubSpot Developers YouTube channel!
+Want a video tutorial? [Check out our video on the HubSpot Developers YouTube channel](https://youtu.be/5P6WuKyOiDE)!
 
 ## Installing the App Cards
 This directory contains a [single public app](https://hubs.la/Q02Rzt0g0) with a single app card written in React. 
